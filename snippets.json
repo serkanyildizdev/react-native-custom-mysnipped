@@ -1,0 +1,66 @@
+{	
+	"React Native Default Screen Template": {
+		"prefix": "rnds",
+		"body": [
+			"import React from 'react';",
+			"import {View, Text} from 'react-native';",
+			"",
+			"const ${1:ScreenName} = () => {",
+			"  return (",
+			"    <View>",
+			"      <Text>${2:${1:ScreenName}}</Text>",
+			"    </View>",
+			"  );",
+			"};",
+			"",
+			"export default ${1:ScreenName};",
+		],
+		"description": "React Native Default Screen Template",
+	},
+	"React Native SafeAreaView Template": {
+		"prefix": "rnss",
+		"body": [
+			"import React from 'react';",
+			"import {SafeAreaView, Text} from 'react-native';",
+			"",
+			"const ${1:ScreenName} = () => {",
+			"  return (",
+			"    <SafeAreaView>",
+			"      <Text>${2:${1:ScreenName}}</Text>",
+			"    </SafeAreaView>",
+			"  );",
+			"};",
+			"",
+			"export default ${1:ScreenName};",
+		],
+		"description": "React Native SafeAreaView Screen Template",
+	},
+	
+	"React Native Stylesheet Template": {
+		"prefix": "rnstyles",
+		"body": [
+			"import {StyleSheet} from 'react-native';",
+			"",
+			"const styles = StyleSheet.create({",
+			"  ${1:container}: {",
+			"    ${2:styles}",
+			"  },",
+			"});",
+			"",
+			"export default styles;",
+		],
+		"description": "React Native Stylesheet Template"
+	},
+
+	"export default": {
+		"prefix": "export",
+		"body": [
+			"export {default} from './${1:MyComponent}';"
+		],
+		"description": "export default"
+	},
+	
+	
+	
+	
+}
